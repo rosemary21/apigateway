@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
+//the annotation discovery client is use to register this service as a client to the discovery server eureka
 @EnableDiscoveryClient
 public class ApigatewayfintechdigitalonlyApplication {
 
